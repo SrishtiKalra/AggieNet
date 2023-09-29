@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472259486778",
+    "project_id": "aggienet-da175",
+    "storage_bucket": "aggienet-da175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472259486778:android:68be7b3b47a14b480e4103",
+        "android_client_info": {
+          "package_name": "com.software.aggienet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASyMudc_ylPCcrQHKLh2czupAqovub2Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
