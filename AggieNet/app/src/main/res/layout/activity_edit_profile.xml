@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".EditProfileActivity"
+android:orientation="vertical"
+android:layout_marginTop="200dp"
+    >
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:src="@drawable/instagramletter"
+    android:layout_marginBottom="20dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/updateImage"
+        android:layout_width="196dp"
+        android:layout_height="153dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_person" />
+
+
+    <EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/buttonbackground"
+    android:hint="Name"
+    android:layout_margin="10dp"
+    android:paddingLeft="20dp"
+    android:textColor="@color/black"/>
+
+    <EditText
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/buttonbackground"
+    android:hint="Username"
+    android:layout_margin="10dp"
+    android:paddingLeft="20dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="20dp"
+    />
+
+    <EditText
+        android:id="@+id/Bio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonbackground"
+        android:hint="Bio"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+    android:id="@+id/savebutton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="Save"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/buttonbackground"
+    android:layout_marginTop="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
